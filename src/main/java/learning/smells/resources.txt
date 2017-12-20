@@ -1,0 +1,26 @@
+My checklist for code review:
+1. where's the test for it?
+2. naming - does it clearly express what it does? (class and method naming)
+3. is it DRY, KISS, YAGNI, SOLID?
+4. does it smell? (including coupling and cyclomatic complexity)
+5. can it be refactored towards any commonly known pattern?
+
+
+Code Smells
+
+Decent, although not perfect, without code samples:
+https://sourcemaking.com/refactoring/smells
+
+Some smells, e.g. Shotgun Surgery, are very hard to spot in code review;
+instead, they bite the developer who is working on the smelly codebase.
+
+They will all slow you down, frustrate you, make you less productive, make you hate your job after some time.
+
+IntelliJ Inspections - turn them all on ;>
+(obviously not, some are mutually exclusive)
+
+Follow up: Test Smells (code smells related to testing and testability of your code)
+
+
+
+
